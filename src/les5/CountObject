@@ -1,0 +1,25 @@
+class CountObject{
+
+        private static int count = 0;
+
+        public static int getCount() {
+            return count;
+        }
+
+        CountObject(){
+            ++count;
+        }
+
+
+}
+public class SimpleNum {
+        public static void main(String[] args) {
+                CountObject co1 = new CountObject();
+                CountObject co2 = new CountObject();
+                CountObject co3 = new CountObject();
+                CountObject co4 = new CountObject();
+                CountObject co5 = new CountObject();
+                CountObject co6 = new CountObject();
+                System.out.println("Cоздано: " + co6.getCount());
+        }
+}

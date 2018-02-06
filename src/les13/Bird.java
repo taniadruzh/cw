@@ -6,6 +6,5 @@ package les13;
 public abstract class Bird {
     private String name;
 
-    public abstract void fly();
     public abstract void sound();
 }

@@ -1,6 +1,6 @@
 package les8.magazPac.sport_goods;
 
-import les7.magazPac.Produser;
+import les8.magazPac.Produser;
 
 import java.io.PrintWriter;
 
